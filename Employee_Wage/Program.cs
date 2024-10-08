@@ -11,7 +11,7 @@ namespace Employee_Wage
         public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
         public const int EMP_RATE_PER_HOUR = 20;
-        public const int NO_OF_WORKING_DAY = 2;
+        public const int NO_OF_WORKING_DAY = 20;
         static void Main(string[] args)
         {
 
@@ -44,6 +44,7 @@ namespace Employee_Wage
             Console.WriteLine("Total Employee Wage:" + totalEmpWage);
             Console.ReadLine();
         }
+        
     }
 }
 
